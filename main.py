@@ -23,11 +23,23 @@ async def about():      # by default return str
 # async def bands():      # by default return list[dict]
 #     return BANDS
 
+# @app.get("/bands")
+# async def bands() -> list[Band]:      # return list of Band object
+#     return [Band(**band) for band in BANDS]
+
 @app.get("/bands")
-async def bands() -> list[Band]:      # return list of Band object
-    return [
-        Band(**band) for band in BANDS
-    ]
+async def bands(
+        genre: GenreURLChoices | None = None,
+        has_albums: bool = False
+    ) -> list[Band]:      # return list of Band object with optional genre params
+    band_list = [Band(**band) for band in BANDS]
+    
+    if genre:
+        band_list = [band for band in band_list if band.genre.lower() == genre.value]
+    
+    if has_albums:
+        band_list = [band for band in band_list if len(band.albums) > 0]
+    return band_list
 
 # @app.get("/bands/{band_id}")
 # async def band(band_id: int):      # by default return dict, type-hint: integer for params
@@ -55,12 +67,8 @@ async def band(band_id: int) -> Band:      # return Band object, type-hint: inte
 
 # @app.get("/bands/genre/{genre}")
 # async def bands_for_genre(genre: str) -> list[dict]:      # return list of dict, type-hint: string for params
-#     return [
-#         band for band in BANDS if band['genre'].lower() == genre.lower()    # lower case to validation params
-#     ]
+#     return [band for band in BANDS if band['genre'].lower() == genre.lower()]       # lower case to validation params
 
 @app.get("/bands/genre/{genre}")
 async def bands_for_genre(genre: GenreURLChoices) -> list[dict]:      # return list of dict, type-hint: enum for params
-    return [
-        band for band in BANDS if band['genre'].lower() == genre.value    # lower case to validation params with value of enum
-    ]
+    return [band for band in BANDS if band['genre'].lower() == genre.value]       # lower case to validation params with value of enum
