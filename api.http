@@ -1,0 +1,20 @@
+POST http://127.0.0.1:8000/bands/
+Content-Type: application/json
+
+{
+    "name": "Brodie",
+    "genre": "POP",
+    "albums": [
+        {
+            "title": "Harvest Goddess",
+            "release_date": "2018-05-28"
+        },
+        {
+            "title": "Harvest Sprite",
+            "release_date": "2018-06-15"
+        }
+    ]
+}
+
+###
+GET http://127.0.0.1:8000/bands?genre=pop
