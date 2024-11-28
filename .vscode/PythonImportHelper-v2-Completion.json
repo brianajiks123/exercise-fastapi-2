@@ -1,0 +1,302 @@
+[
+    {
+        "label": "create_engine",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "SQLModel",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "SQLModel",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "Relationship",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "GenreURLChoices",
+        "importPath": "model.models",
+        "description": "model.models",
+        "isExtraImport": true,
+        "detail": "model.models",
+        "documentation": {}
+    },
+    {
+        "label": "CreateBand",
+        "importPath": "model.models",
+        "description": "model.models",
+        "isExtraImport": true,
+        "detail": "model.models",
+        "documentation": {}
+    },
+    {
+        "label": "Band",
+        "importPath": "model.models",
+        "description": "model.models",
+        "isExtraImport": true,
+        "detail": "model.models",
+        "documentation": {}
+    },
+    {
+        "label": "Album",
+        "importPath": "model.models",
+        "description": "model.models",
+        "isExtraImport": true,
+        "detail": "model.models",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "asynccontextmanager",
+        "importPath": "contextlib",
+        "description": "contextlib",
+        "isExtraImport": true,
+        "detail": "contextlib",
+        "documentation": {}
+    },
+    {
+        "label": "init_db",
+        "importPath": "model.db",
+        "description": "model.db",
+        "isExtraImport": true,
+        "detail": "model.db",
+        "documentation": {}
+    },
+    {
+        "label": "get_session",
+        "importPath": "model.db",
+        "description": "model.db",
+        "isExtraImport": true,
+        "detail": "model.db",
+        "documentation": {}
+    },
+    {
+        "label": "init_db",
+        "kind": 2,
+        "importPath": "model.db",
+        "description": "model.db",
+        "peekOfCode": "def init_db():\n    SQLModel.metadata.create_all(engine)\ndef get_session():\n    with Session(engine) as session:\n        yield session",
+        "detail": "model.db",
+        "documentation": {}
+    },
+    {
+        "label": "get_session",
+        "kind": 2,
+        "importPath": "model.db",
+        "description": "model.db",
+        "peekOfCode": "def get_session():\n    with Session(engine) as session:\n        yield session",
+        "detail": "model.db",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_URL",
+        "kind": 5,
+        "importPath": "model.db",
+        "description": "model.db",
+        "peekOfCode": "DATABASE_URL = \"sqlite:///db.sqlite\"\nengine = create_engine(DATABASE_URL, echo=True)\ndef init_db():\n    SQLModel.metadata.create_all(engine)\ndef get_session():\n    with Session(engine) as session:\n        yield session",
+        "detail": "model.db",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "model.db",
+        "description": "model.db",
+        "peekOfCode": "engine = create_engine(DATABASE_URL, echo=True)\ndef init_db():\n    SQLModel.metadata.create_all(engine)\ndef get_session():\n    with Session(engine) as session:\n        yield session",
+        "detail": "model.db",
+        "documentation": {}
+    },
+    {
+        "label": "GenreURLChoices",
+        "kind": 6,
+        "importPath": "model.models",
+        "description": "model.models",
+        "peekOfCode": "class GenreURLChoices(Enum):\n    ROCK = 'rock'\n    POP = 'pop'\nclass GenreChoices(Enum):\n    ROCK = 'Rock'\n    POP = 'Pop'\nclass BandBase(SQLModel):\n    name: str\n    genre: GenreChoices\nclass Band(BandBase, table=True):",
+        "detail": "model.models",
+        "documentation": {}
+    },
+    {
+        "label": "GenreChoices",
+        "kind": 6,
+        "importPath": "model.models",
+        "description": "model.models",
+        "peekOfCode": "class GenreChoices(Enum):\n    ROCK = 'Rock'\n    POP = 'Pop'\nclass BandBase(SQLModel):\n    name: str\n    genre: GenreChoices\nclass Band(BandBase, table=True):\n    id: int | None = Field(default=None, primary_key=True)\n    albums: list[\"Album\"] = Relationship(back_populates=\"band\")\nclass AlbumBase(SQLModel):",
+        "detail": "model.models",
+        "documentation": {}
+    },
+    {
+        "label": "BandBase",
+        "kind": 6,
+        "importPath": "model.models",
+        "description": "model.models",
+        "peekOfCode": "class BandBase(SQLModel):\n    name: str\n    genre: GenreChoices\nclass Band(BandBase, table=True):\n    id: int | None = Field(default=None, primary_key=True)\n    albums: list[\"Album\"] = Relationship(back_populates=\"band\")\nclass AlbumBase(SQLModel):\n    title: str\n    release_date: date\n    band_id: int | None = Field(default=None, foreign_key=\"band.id\")         # Belongs to Band",
+        "detail": "model.models",
+        "documentation": {}
+    },
+    {
+        "label": "Band",
+        "kind": 6,
+        "importPath": "model.models",
+        "description": "model.models",
+        "peekOfCode": "class Band(BandBase, table=True):\n    id: int | None = Field(default=None, primary_key=True)\n    albums: list[\"Album\"] = Relationship(back_populates=\"band\")\nclass AlbumBase(SQLModel):\n    title: str\n    release_date: date\n    band_id: int | None = Field(default=None, foreign_key=\"band.id\")         # Belongs to Band\nclass Album(AlbumBase, table=True):\n    id: int | None = Field(default=None, primary_key=True)\n    band: Band | None = Relationship(back_populates=\"albums\")",
+        "detail": "model.models",
+        "documentation": {}
+    },
+    {
+        "label": "AlbumBase",
+        "kind": 6,
+        "importPath": "model.models",
+        "description": "model.models",
+        "peekOfCode": "class AlbumBase(SQLModel):\n    title: str\n    release_date: date\n    band_id: int | None = Field(default=None, foreign_key=\"band.id\")         # Belongs to Band\nclass Album(AlbumBase, table=True):\n    id: int | None = Field(default=None, primary_key=True)\n    band: Band | None = Relationship(back_populates=\"albums\")\nclass CreateBand(BandBase):\n    albums: list[AlbumBase] | None = None       # Optional Field\n    @validator('genre', pre=True)",
+        "detail": "model.models",
+        "documentation": {}
+    },
+    {
+        "label": "Album",
+        "kind": 6,
+        "importPath": "model.models",
+        "description": "model.models",
+        "peekOfCode": "class Album(AlbumBase, table=True):\n    id: int | None = Field(default=None, primary_key=True)\n    band: Band | None = Relationship(back_populates=\"albums\")\nclass CreateBand(BandBase):\n    albums: list[AlbumBase] | None = None       # Optional Field\n    @validator('genre', pre=True)\n    def title_case_genre(cls, value):\n        return value.title()",
+        "detail": "model.models",
+        "documentation": {}
+    },
+    {
+        "label": "CreateBand",
+        "kind": 6,
+        "importPath": "model.models",
+        "description": "model.models",
+        "peekOfCode": "class CreateBand(BandBase):\n    albums: list[AlbumBase] | None = None       # Optional Field\n    @validator('genre', pre=True)\n    def title_case_genre(cls, value):\n        return value.title()",
+        "detail": "model.models",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "app = FastAPI(lifespan=lifespan)\n@app.get(\"/bands\")\nasync def bands(\n        genre: GenreURLChoices | None = None,\n        q: Annotated[str | None, Query(max_length=10)] = None,\n        session: Session = Depends(get_session)\n    ) -> list[Band]:\n    band_list = session.exec(select(Band)).all()\n    if genre:\n        band_list = [band for band in band_list if band.genre.value.lower() == genre.value]",
+        "detail": "main",
+        "documentation": {}
+    }
+]
