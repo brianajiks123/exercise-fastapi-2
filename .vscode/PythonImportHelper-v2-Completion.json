@@ -1,5 +1,111 @@
 [
     {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "sqlalchemy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "engine_from_config",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "pool",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "sqlmodel",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "SQLModel",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
         "label": "create_engine",
         "importPath": "sqlmodel",
         "description": "sqlmodel",
@@ -61,6 +167,70 @@
         "description": "sqlmodel",
         "isExtraImport": true,
         "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Album",
+        "importPath": "model.models",
+        "description": "model.models",
+        "isExtraImport": true,
+        "detail": "model.models",
+        "documentation": {}
+    },
+    {
+        "label": "Band",
+        "importPath": "model.models",
+        "description": "model.models",
+        "isExtraImport": true,
+        "detail": "model.models",
+        "documentation": {}
+    },
+    {
+        "label": "GenreURLChoices",
+        "importPath": "model.models",
+        "description": "model.models",
+        "isExtraImport": true,
+        "detail": "model.models",
+        "documentation": {}
+    },
+    {
+        "label": "CreateBand",
+        "importPath": "model.models",
+        "description": "model.models",
+        "isExtraImport": true,
+        "detail": "model.models",
+        "documentation": {}
+    },
+    {
+        "label": "Band",
+        "importPath": "model.models",
+        "description": "model.models",
+        "isExtraImport": true,
+        "detail": "model.models",
+        "documentation": {}
+    },
+    {
+        "label": "Album",
+        "importPath": "model.models",
+        "description": "model.models",
+        "isExtraImport": true,
+        "detail": "model.models",
         "documentation": {}
     },
     {
@@ -128,67 +298,92 @@
         "documentation": {}
     },
     {
-        "label": "GenreURLChoices",
-        "importPath": "model.models",
-        "description": "model.models",
-        "isExtraImport": true,
-        "detail": "model.models",
-        "documentation": {}
-    },
-    {
-        "label": "CreateBand",
-        "importPath": "model.models",
-        "description": "model.models",
-        "isExtraImport": true,
-        "detail": "model.models",
-        "documentation": {}
-    },
-    {
-        "label": "Band",
-        "importPath": "model.models",
-        "description": "model.models",
-        "isExtraImport": true,
-        "detail": "model.models",
-        "documentation": {}
-    },
-    {
-        "label": "Album",
-        "importPath": "model.models",
-        "description": "model.models",
-        "isExtraImport": true,
-        "detail": "model.models",
-        "documentation": {}
-    },
-    {
-        "label": "Annotated",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "asynccontextmanager",
-        "importPath": "contextlib",
-        "description": "contextlib",
-        "isExtraImport": true,
-        "detail": "contextlib",
-        "documentation": {}
-    },
-    {
-        "label": "init_db",
-        "importPath": "model.db",
-        "description": "model.db",
-        "isExtraImport": true,
-        "detail": "model.db",
-        "documentation": {}
-    },
-    {
         "label": "get_session",
         "importPath": "model.db",
         "description": "model.db",
         "isExtraImport": true,
         "detail": "model.db",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.4f24704b2a67_init_migration",
+        "description": "migrations.versions.4f24704b2a67_init_migration",
+        "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('band',\n        sa.Column('name', sqlmodel.sql.sqltypes.AutoString(), nullable=False),\n        sa.Column('genre', sa.Enum('ROCK', 'POP', name='genrechoices'), nullable=False),\n        sa.Column('id', sa.Integer(), nullable=False),\n        sa.PrimaryKeyConstraint('id')\n    )\n    op.create_table('album',\n        sa.Column('title', sqlmodel.sql.sqltypes.AutoString(), nullable=False),",
+        "detail": "migrations.versions.4f24704b2a67_init_migration",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.4f24704b2a67_init_migration",
+        "description": "migrations.versions.4f24704b2a67_init_migration",
+        "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table('album')\n    op.drop_table('band')\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.4f24704b2a67_init_migration",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.691e5b5d7f7e_added_date_formed_field_to_band_model",
+        "description": "migrations.versions.691e5b5d7f7e_added_date_formed_field_to_band_model",
+        "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('band', sa.Column('date_formed', sa.Date(), nullable=True))\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_column('band', 'date_formed')\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.691e5b5d7f7e_added_date_formed_field_to_band_model",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.691e5b5d7f7e_added_date_formed_field_to_band_model",
+        "description": "migrations.versions.691e5b5d7f7e_added_date_formed_field_to_band_model",
+        "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_column('band', 'date_formed')\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.691e5b5d7f7e_added_date_formed_field_to_band_model",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def run_migrations_online() -> None:\n    \"\"\"Run migrations in 'online' mode.\n    In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    connectable = engine_from_config(\n        config.get_section(config.config_ini_section, {}),\n        prefix=\"sqlalchemy.\",\n        poolclass=pool.NullPool,\n    )",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "config = context.config\nDB_PATH = str((Path().parent / \"db.sqlite3\").resolve())\nconfig.set_main_option(\"sqlalchemy.url\", f\"sqlite:///{DB_PATH}\")\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nif config.config_file_name is not None:\n    fileConfig(config.config_file_name)\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "DB_PATH",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "DB_PATH = str((Path().parent / \"db.sqlite3\").resolve())\nconfig.set_main_option(\"sqlalchemy.url\", f\"sqlite:///{DB_PATH}\")\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nif config.config_file_name is not None:\n    fileConfig(config.config_file_name)\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_metadata",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "target_metadata = SQLModel.metadata\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation",
+        "detail": "migrations.env",
         "documentation": {}
     },
     {
@@ -214,7 +409,7 @@
         "kind": 5,
         "importPath": "model.db",
         "description": "model.db",
-        "peekOfCode": "DATABASE_URL = \"sqlite:///db.sqlite\"\nengine = create_engine(DATABASE_URL, echo=True)\ndef init_db():\n    SQLModel.metadata.create_all(engine)\ndef get_session():\n    with Session(engine) as session:\n        yield session",
+        "peekOfCode": "DATABASE_URL = \"sqlite:///db.sqlite3\"\nengine = create_engine(DATABASE_URL, echo=True)\ndef init_db():\n    SQLModel.metadata.create_all(engine)\ndef get_session():\n    with Session(engine) as session:\n        yield session",
         "detail": "model.db",
         "documentation": {}
     },
@@ -241,7 +436,7 @@
         "kind": 6,
         "importPath": "model.models",
         "description": "model.models",
-        "peekOfCode": "class GenreChoices(Enum):\n    ROCK = 'Rock'\n    POP = 'Pop'\nclass BandBase(SQLModel):\n    name: str\n    genre: GenreChoices\nclass Band(BandBase, table=True):\n    id: int | None = Field(default=None, primary_key=True)\n    albums: list[\"Album\"] = Relationship(back_populates=\"band\")\nclass AlbumBase(SQLModel):",
+        "peekOfCode": "class GenreChoices(Enum):\n    ROCK = 'Rock'\n    POP = 'Pop'\nclass BandBase(SQLModel):\n    name: str\n    genre: GenreChoices\nclass Band(BandBase, table=True):\n    id: int | None = Field(default=None, primary_key=True)\n    albums: list[\"Album\"] = Relationship(back_populates=\"band\")\n    date_formed: date | None",
         "detail": "model.models",
         "documentation": {}
     },
@@ -250,7 +445,7 @@
         "kind": 6,
         "importPath": "model.models",
         "description": "model.models",
-        "peekOfCode": "class BandBase(SQLModel):\n    name: str\n    genre: GenreChoices\nclass Band(BandBase, table=True):\n    id: int | None = Field(default=None, primary_key=True)\n    albums: list[\"Album\"] = Relationship(back_populates=\"band\")\nclass AlbumBase(SQLModel):\n    title: str\n    release_date: date\n    band_id: int | None = Field(default=None, foreign_key=\"band.id\")         # Belongs to Band",
+        "peekOfCode": "class BandBase(SQLModel):\n    name: str\n    genre: GenreChoices\nclass Band(BandBase, table=True):\n    id: int | None = Field(default=None, primary_key=True)\n    albums: list[\"Album\"] = Relationship(back_populates=\"band\")\n    date_formed: date | None\nclass AlbumBase(SQLModel):\n    title: str\n    release_date: date",
         "detail": "model.models",
         "documentation": {}
     },
@@ -259,7 +454,7 @@
         "kind": 6,
         "importPath": "model.models",
         "description": "model.models",
-        "peekOfCode": "class Band(BandBase, table=True):\n    id: int | None = Field(default=None, primary_key=True)\n    albums: list[\"Album\"] = Relationship(back_populates=\"band\")\nclass AlbumBase(SQLModel):\n    title: str\n    release_date: date\n    band_id: int | None = Field(default=None, foreign_key=\"band.id\")         # Belongs to Band\nclass Album(AlbumBase, table=True):\n    id: int | None = Field(default=None, primary_key=True)\n    band: Band | None = Relationship(back_populates=\"albums\")",
+        "peekOfCode": "class Band(BandBase, table=True):\n    id: int | None = Field(default=None, primary_key=True)\n    albums: list[\"Album\"] = Relationship(back_populates=\"band\")\n    date_formed: date | None\nclass AlbumBase(SQLModel):\n    title: str\n    release_date: date\n    band_id: int | None = Field(default=None, foreign_key=\"band.id\")         # Belongs to Band\nclass Album(AlbumBase, table=True):\n    id: int | None = Field(default=None, primary_key=True)",
         "detail": "model.models",
         "documentation": {}
     },
@@ -295,7 +490,7 @@
         "kind": 5,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "app = FastAPI(lifespan=lifespan)\n@app.get(\"/bands\")\nasync def bands(\n        genre: GenreURLChoices | None = None,\n        q: Annotated[str | None, Query(max_length=10)] = None,\n        session: Session = Depends(get_session)\n    ) -> list[Band]:\n    band_list = session.exec(select(Band)).all()\n    if genre:\n        band_list = [band for band in band_list if band.genre.value.lower() == genre.value]",
+        "peekOfCode": "app = FastAPI()\n@app.get(\"/bands\")\nasync def bands(\n        genre: GenreURLChoices | None = None,\n        q: Annotated[str | None, Query(max_length=10)] = None,\n        session: Session = Depends(get_session)\n    ) -> list[Band]:\n    band_list = session.exec(select(Band)).all()\n    if genre:\n        band_list = [band for band in band_list if band.genre.value.lower() == genre.value]",
         "detail": "main",
         "documentation": {}
     }

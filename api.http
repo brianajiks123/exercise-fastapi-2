@@ -2,15 +2,15 @@ POST http://127.0.0.1:8000/bands/
 Content-Type: application/json
 
 {
-    "name": "Brian",
+    "name": "Aji",
     "genre": "Rock",
     "albums": [
         {
-            "title": "Harvest Rock",
+            "title": "Rock Star",
             "release_date": "2018-05-28"
         },
         {
-            "title": "Rock Sprite",
+            "title": "Sprites",
             "release_date": "2018-06-15"
         }
     ]
